@@ -1,0 +1,111 @@
+
+  #ceiling
+  {
+    position: absolute;
+    top: -16px;
+    height: 16px;
+    width: 100%;
+    background-image: url('../../assets/ceiling.png');
+    background-repeat: repeat-x;
+    
+    -webkit-animation: animCeiling 481ms linear infinite;
+    animation: animCeiling 481ms linear infinite;
+  }
+
+  #bigscore
+  {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    z-index: 100;
+  }
+  
+  #bigscore img
+  {
+    display: inline-block;
+    padding: 1px;
+  }
+
+  #splash
+  {
+    position: absolute;
+    opacity: 0;
+    top: 75px;
+    left: 65px;
+    width: 188px;
+    height: 170px;
+    background-image: url('../../assets/splash.png');
+    background-repeat: no-repeat;
+  }
+
+  #scoreboard
+  {
+    position: absolute;
+    display: none;
+    opacity: 0;
+    top: 64px;
+    left: 43px;
+    width: 236px;
+    height: 280px;
+    background-image: url('../../assets/scoreboard.png');
+    background-repeat: no-repeat;
+    
+    z-index: 1000;
+  }
+  
+  #medal
+  {
+    position: absolute;
+    opacity: 0;
+    top: 114px;
+    left: 32px;
+    width: 44px;
+    height: 44px;
+  }
+  
+  #currentscore
+  {
+    position: absolute;
+    top: 105px;
+    left: 107px;
+    width: 104px;
+    height: 14px;
+    text-align: right;
+  }
+  
+  #currentscore img
+  {
+    padding-left: 2px;
+  }
+  
+  #highscore
+  {
+    position: absolute;
+    top: 147px;
+    left: 107px;
+    width: 104px;
+    height: 14px;
+    text-align: right;
+  }
+  
+  #highscore img
+  {
+    padding-left: 2px;
+  }
+  
+  #replay
+  {
+    position: absolute;
+    opacity: 0;
+    top: 205px;
+    left: 61px;
+    height: 115px;
+    width: 70px;
+    cursor: pointer;
+  }
+
+  #player
+  {
+    left: 60px;
+    top: 200px;
+  }
