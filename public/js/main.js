@@ -30,7 +30,7 @@ var velocity = 0;
 var position = 180;
 var rotation = 0;
 var jump = -4.6;
-var flyArea = $("#flyarea").height();
+var flyArea;
 
 var score = 0;
 var highscore = 0;
@@ -55,6 +55,8 @@ var loopGameloop;
 var loopPipeloop;
 
 $(document).ready(function() {
+   flyArea = $("#flyarea").height();
+
    if(window.location.search == "?debug")
       debugmode = true;
    if(window.location.search == "?easy")
